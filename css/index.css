@@ -1,0 +1,381 @@
+@import url('base.css');
+    /* 头部开始 */
+header{
+	width: 100%;
+	height: 0.9rem;
+	background: #3cfdd3;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.42rem 0 0.41rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.position{
+	float: left;
+	display: block;
+	width: 1.11rem;
+	height: 100%;
+/* 	background: red; */
+}
+.position i{
+	display: block;
+	color: #fff;
+	font-size: 0.4rem;
+	top: 0.25rem;
+	float: left;
+	position: absolute;
+}
+.position span{
+	display: block;
+	font-size: 0.24rem;
+	color: #fff;
+	float: right;
+	margin-top: 0.29rem;
+}
+.search{
+	display: block;
+	float: left ;
+	width: 3.2rem;
+	height: 0.4rem;
+	background: #fff;
+	margin-top: 0.23rem;
+	border-radius: 0.25rem;
+}
+.search i{
+	display: block;
+	color: #000;
+	font-size: 0.28rem;
+	margin-top: 0.06rem;
+	margin-left: 0.12rem;
+	float: left;
+}
+.search input{
+	display: block;
+	float: right;
+	font-size: 0.18rem;
+	height: 100%;
+	padding: 0;
+	border: none;
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+	width: 2.63rem;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+}
+.search input:focus{
+	outline: none;
+}
+.weather{
+	width: 0.6rem;
+	height: 0.9rem;
+/* 	background: yellow; */
+	float: right;
+}
+.weather i{
+	display: block;
+	color: #fff;
+	font-size: 0.4rem;
+	margin-top: 0.25rem;
+	float: right;
+	margin-right: 0.15rem;
+}
+/* 头部结束 */
+/* 图片开始 */
+.zhengti{
+	width: 100%;
+	height: 2.69rem;
+/* 	background: pink; */
+	position:relative;
+}
+.tiao{
+	width: 100%;
+	height: 1.35rem;
+	background: #31ffd1;
+}
+.tu1{
+	width: 7rem;
+	height: 2.69rem;
+	background: red;
+	margin-left: 0.23rem;
+	border-radius: 0.1rem;
+	position:absolute;
+	top: 0;
+}
+.btn{
+	width: 0.33rem;
+	height: 0.06rem;
+/* 	background: red; */
+	position:absolute;
+	bottom:0.14rem ;
+	left: 3.33rem;
+	display: flex;
+    justify-content: space-between;
+}
+.btn li{
+	display: block;
+	width: 0.06rem;
+	height: 0.06rem;
+	background: pink;
+	border-radius: 0.06rem;
+/* 	border: 0.03rem solid #8e8a87; */
+}
+.btn li:first-child{
+	background: #00b36a;
+}
+.btn li:hover{
+	background: #00b36a;
+}
+.tu1 img{
+	border-radius: 0.1rem;
+}
+/* 图片结束 */
+/* NAV开始 */
+.nav{
+	width: 100%;
+	height: 4.05rem;
+	background: #fff;
+}
+.nav li{
+	display: block;
+    width: 1.80rem;
+	height: 1.95rem;
+/* 	background: lightgoldenrodyellow; */
+	float: left;
+	margin-bottom: 0.1rem;
+	margin-right: 0.1rem;
+	position: relative;
+}
+.nav li:last-child{
+	margin-right:0;
+}
+.nav li:nth-child(4){
+	margin-right: 0;
+}
+.nav li a{
+	display: block;
+	width: 1.2rem;
+	height: 1.2rem;
+	/* background: purple; */
+	margin: 0.28rem auto 0.47rem;
+}
+.quan i{
+	display: block;
+	font-size: 0.6rem;
+	color: #b86dbf;
+	float: left;
+	position: absolute;
+	top: 0.60rem;
+	left: 0.59rem;
+}
+.quan span{
+	font-size: 0.34rem;
+	color: #000;
+	float: left;
+    margin-left: 0.3rem;
+}
+/* NAV结束
+/* 插图开始 */
+.chatu{
+	width: 100%;
+	height: 5.3rem;
+	background: #fff;
+	position: relative;
+}
+.chatu a{
+	display: block;
+	width: 3.5rem;
+	height: 5.3rem;
+/* 	background: red; */
+	float: left;
+	margin-left: 0.26rem;
+	position:absolute;
+	top: 0;
+}
+.chatu a:last-child{
+	display: block;
+	float: right;
+	margin-left: 0;
+	position:absolute;
+	top: 0;
+	right: 0.26rem;
+}
+/* 插图结束 */
+/* 内容开始 */
+.zt{
+	width: 100%;
+	height: 11.74rem;
+	background: #fff;
+}
+.tuijian{
+	width: 100%;
+	height: 0.7rem;
+/* 	background: yellow; */
+}
+.tuijian h1{
+	float: left;
+	font-size: 0.34rem;
+	color: #fcafcd;
+	margin-left: 2.25rem;
+    margin-top:0.3rem;
+}
+.shangjia{
+	width: 7rem;
+	height: 11.05rem;
+/* 	background: pink; */
+	margin-left: 0.25rem;
+}
+.shangjia li{
+	width: : 100%;
+	height: 1.8rem;
+/* 	background: lightgreen; */
+	border: 0.01rem solid rgba(0, 0, 0, 0.1);
+	border-left: none;
+	border-right: none;
+}
+.shangjia li:first-child{
+	border-top: none;
+}
+.zuo1{
+	width: 1.66rem;
+	height: 1.8rem;
+/* 	background: blue; */
+	float: left;
+	margin-left: 0;
+}
+.you1{
+	width: 5.34rem;
+	height: 1.8rem;
+/* 	background: pink; */
+	float: right: ;
+	margin-left:1.66rem;
+}
+.xiala{
+	display: block;
+	width: 1.5rem;
+	height: 1.5rem;
+/* 	background: purple; */
+	margin-top: 0.15rem;
+	margin-left: 0.1rem;
+}
+.mingcheng h2{
+	display: block;
+	font-size: 0.34rem;
+	color: #000;
+	float: left;
+    margin-top: 0.27rem;
+}
+.pingjiatiao{
+	width: 5.35rem;
+	height: 0.35rem;
+/* 	background: purple; */
+	float: left;
+}
+.pingjia{
+	font-size: 0.20rem;
+	color: rgba(0, 0, 0, 0.5);
+	float: left;
+	line-height: 0.35rem;
+}
+.xingxing{
+	width: 1.29rem;
+	height: 0.17rem;
+	background: yellow;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+.shijian{
+	width: 2.35rem;
+	height: 0.35rem;
+	font-size: 0.20rem;
+	color: rgba(0, 0, 0, 0.5);
+	float: left;
+	line-height: 0.35rem;
+}
+.yueshou{
+/* 	width: 1.07rem; */
+	height: 0.35rem;
+	font-size: 0.20rem;
+	color: rgba(0, 0, 0, 0.5);
+	float: right;
+	line-height: 0.35rem;
+}
+.peisong{
+	width: 4.0rem;
+	height: 0.35rem;
+	font-size: 0.20rem;
+	color: rgba(0, 0, 0, 0.5);
+	float: left;
+	line-height: 0.35rem;
+}
+/* 内容结束 */
+/* tab栏开始 */
+.jiange{
+	width: 100%;
+	height: 1rem;
+/* 	background: yellow; */
+	margin-bottom: 
+}
+.tab{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	position:fixed;  
+	bottom: 0;
+	left: 0;
+	z-index:999;
+}
+.tab a{
+	display: block;
+	width: 0.55rem;
+	height: 0.48rem;
+/* 	background: pink; */
+	float: left;
+	margin-right: 1.5rem;
+	margin-top: 0.1rem;
+}
+.tab a:first-child{
+	margin-left: 0.4rem;
+}
+.tab a:last-child{
+	margin-right: 0;
+}
+.tab i{
+	display: block;
+	color: #4c4c4c;
+	font-size: 0.48rem;
+	float: left;
+	position: absolute;
+}
+.homepage i{
+	color: #00b36a;
+}
+.homepage span{
+	display: block;
+	font-size: 0.18rem;
+	color: #00b36a;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+.find span{
+	display: block;
+	font-size: 0.18rem;
+	color: #4c4c4c;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+.order span{
+	display: block;
+	font-size: 0.18rem;
+	color: #4c4c4c;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+.mine span{
+	display: block;
+	font-size: 0.18rem;
+	color: #4c4c4c;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+/* tab栏结束 */

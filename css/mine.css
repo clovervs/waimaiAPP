@@ -1,0 +1,260 @@
+@import url('base.css');
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.9rem;
+	background-image:-webkit-linear-gradient(left,#31ffd1,#bee5e3);
+	position: relative;
+}
+.system{
+	display: block;
+	width: 1.11rem;
+	height: 100%;
+/* 	background: red; */
+}
+.system i{
+	display: block;
+	color: #fff;
+	font-size: 0.4rem;
+	top: 0.25rem;
+	left: 0.6rem;
+	position: absolute;
+}
+.skin{
+	display: block;
+	width: 1.11rem;
+	height: 100%;
+/* 	background: red; */
+}
+.skin i{
+	display: block;
+	color: #fff;
+	font-size: 0.4rem;
+	top: 0.25rem;
+	left: 5rem;
+	position: absolute;
+}
+.news{
+	display: block;
+	width: 1.11rem;
+	height: 100%;
+/* 	background: red; */
+}
+.news i{
+	display: block;
+	color: #fff;
+	font-size: 0.4rem;
+	top: 0.25rem;
+	right: 0.6rem;
+	position: absolute;
+}
+/* 头部结束 */
+/* 个人开始 */
+.geren{
+	width: 100%;
+	height: 2rem;
+	/* background-image:-webkit-linear-gradient(left,#31ffd1,#bee5e3); */
+}
+.neirong{
+	width: 7rem;
+	height: 9.4rem;
+/* 	background: yellow; */
+	margin: 0 auto;
+}
+.neirong li{
+	width: 100%;
+	height: 3.15rem;
+	border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+.tubiao{
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.tubiao i{
+	font-size: 0.5rem;
+}
+.tubiao i:first-child{
+	color: #edc5f6;
+	border: 0.10rem;
+}
+.tubiao i:nth-child(2){
+	color: #1296db;
+}
+.tubiao i:last-child{
+	color: #f458c2;
+}
+.wenzi{
+	width: 100%;
+	height: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.wenzi span{
+	font-size: 0.15rem;
+	color: #000; 
+	text-align: center;
+}
+.money{
+	width: 100%;
+	height: 1rem;
+/* 	background: green; */
+	font-size: 0.24rem;
+	color: #000;
+	line-height: 1rem;
+}
+.money1{
+	width: 100%;
+	height: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.money1 i{
+	font-size: 0.5rem;
+}
+.money1 i:first-child{
+	color: #f25f5c;
+	border: 0.10rem;
+}
+.money1 i:nth-child(2){
+	color: #1296db;
+}
+.money1 i:nth-child(3){
+	color: #f7931e;
+}
+.money1 i:last-child{
+	color: #7be3e7;
+}
+.wenzi{
+	width: 100%;
+	height: 0.5rem;
+}
+.wenzi span{
+	font-size: 0.15rem;
+	color: #000; 
+	text-align: center;
+}
+.money2 i{
+	font-size: 0.5rem;
+}
+.money2 i:first-child{
+	color: #fcf778;
+	border: 0.10rem;
+}
+.money2 i:last-child{
+/* 	margin-left:0.95rem; */
+	color: #d81e06;
+}
+#yue{
+	position: absolute;
+	top: 2rem;
+	left: 0.62rem;
+}
+#hong{
+	position: absolute;
+	top: 2rem;
+	left: 2.5rem;
+}
+.wenzi2 span{
+	font-size: 0.15rem;
+	color: #000; 
+/* 	margin-left:0.7rem; */
+  	position: absolute;
+	top: 2.7rem;
+	left: 0.7rem;
+}
+.wenzi2 span:last-child{
+	position: absolute;
+	top: 2.7rem;
+	left: 2.3rem;
+}
+.wenzi3 span{
+	font-size: 0.15rem;
+	color: #000; 
+/* 	margin-left:0.7rem; */
+  	position: absolute;
+	top: 2.7rem;
+	left: 0.5rem;
+}
+.wenzi3 span:last-child{
+	position: absolute;
+	top: 2.7rem;
+	left: 2.3rem;
+}
+/* 个人结束 */
+/* tab栏开始 */
+.jiange{
+	width: 100%;
+	height: 1rem;
+/* 	background: yellow; */
+	margin-bottom: 
+}
+.tab{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	position:fixed;  
+	bottom: 0;
+	left: 0;
+	z-index:999;
+}
+.tab a{
+	display: block;
+	width: 0.55rem;
+	height: 0.48rem;
+/* 	background: pink; */
+	float: left;
+	margin-right: 1.5rem;
+	margin-top: 0.1rem;
+}
+.tab a:first-child{
+	margin-left: 0.4rem;
+}
+.tab a:last-child{
+	margin-right: 0;
+}
+.tab i{
+	display: block;
+	color: #4c4c4c;
+	font-size: 0.48rem;
+	float: left;
+	position: absolute;
+}
+.mine i{
+	color: #00b36a;
+}
+.homepage span{
+	display: block;
+	font-size: 0.18rem;
+	color: #4c4c4c;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+.find span{
+	display: block;
+	font-size: 0.18rem;
+	color: #4c4c4c;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+.order span{
+	display: block;
+	font-size: 0.18rem;
+	color: #4c4c4c;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+.mine span{
+	display: block;
+	font-size: 0.18rem;
+	color: #00b36a;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+/* tab栏结束 */
+/* tab栏结束 */
